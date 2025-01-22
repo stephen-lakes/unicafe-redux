@@ -27,7 +27,7 @@ const App = () => {
 
   const zero = () => {
     store.dispatch({
-      type: "Zero",
+      type: "ZERO",
     });
   };
 
