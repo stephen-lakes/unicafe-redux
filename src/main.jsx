@@ -13,6 +13,24 @@ const App = () => {
     })
   }
 
+  const bad = () => {
+    store.dispatch({
+      type: 'BAD'
+    })
+  }
+
+  const ok = () => {
+    store.dispatch({
+      type: 'OK'
+    })
+  }
+
+  const zero = ()=> {
+    store.dispatch({
+      type: 'Zero'
+    })
+  }
+
   return (
     <div>
       <button onClick={good}>good</button> 
